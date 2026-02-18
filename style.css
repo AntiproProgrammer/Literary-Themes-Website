@@ -60,3 +60,17 @@ h2 {
   background: #0d3b66;
   color: white;
 }
+
+.img-language {
+  width: 50px;
+  height: 30px;
+  border-radius: 7px;
+  display: inline-block;
+  margin: 5px 7px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.img-language:hover {
+  transform: scale(1.1);
+}
