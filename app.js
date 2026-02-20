@@ -1,12 +1,18 @@
-function go(id) {
-  document.getElementById(id).scrollIntoView();
-}
+document.querySelectorAll(".click-buttons").forEach(button => {
+    button.addEventListener("click", (e) => {
+      document.getElementById(e.target.name).scrollIntoView();
+    });
+  });
+
+
+
+
 
 const translations = {
   sv: {
     HeroHeader: `Artificiell Intelligens & Etik`,
     analysisTitle: "Analys",
-    analysisText: "Ppå svenska...",
+    analysisText: "på svenska...",
   },
   en: {
     HeroHeader: `Artificial Intelligence & Ethics`,

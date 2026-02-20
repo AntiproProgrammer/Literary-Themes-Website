@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <script src="app.js"></script>
   </head>
-
+  
   <body>
     <div class="lang">
       <img class="img-language" onclick="setLang('en')" src="./image/eng-flag.png" alt="english flag">
@@ -19,15 +18,15 @@
       <h1 id="title">Artificial Intelligence & Ethics</h1>
       <p id="intro">A study of Frankenstein and modern AI relationships.</p>
     </div>
-
+    
     <div class="buttons">
-      <button onclick="go('author')">Author</button>
-      <button onclick="go('context')">Context</button>
-      <button onclick="go('analysis')">Analysis</button>
-      <button onclick="go('modern')">AI Today</button>
-      <button onclick="go('conclusion')">Conclusion</button>
+      <button name="author" class="click-buttons">Author</button>
+      <button name="context" class="click-buttons">Context</button>
+      <button name="analysis" class="click-buttons">Analysis</button>
+      <button name="modern" class="click-buttons">AI Today</button>
+      <button name="conclusion" class="click-buttons">Conclusion</button>
     </div>
-
+    
     <div id="author" class="section">
       <h2 id="authorTitle">About the Author</h2>
       <p id="authorText">
@@ -35,7 +34,7 @@
         at age 18.
       </p>
     </div>
-
+    
     <div id="context" class="section">
       <h2 id="contextTitle">Historical Context</h2>
       <p id="contextText">
@@ -51,7 +50,7 @@
         science without ethics.
       </p>
     </div>
-
+    
     <div id="modern" class="section">
       <h2 id="modernTitle">AI & Modern Society</h2>
       <p id="modernText">
@@ -59,7 +58,7 @@
         it.
       </p>
     </div>
-
+    
     <div id="conclusion" class="section">
       <h2 id="conclusionTitle">Conclusion</h2>
       <p id="conclusionText">
@@ -67,7 +66,7 @@
         today.
       </p>
     </div>
-
+    
     <footer>
       <ul>
         <li><i class="fa-regular fa-user"></i><span>Alexander Åhlander</span></li>
@@ -76,5 +75,7 @@
         <li><i class="fa-regular fa-user"></i><span>Martin Larsen</span></li>
       </ul>
     </footer>
+    
+    <script src="./app.js"></script>
   </body>
 </html>
