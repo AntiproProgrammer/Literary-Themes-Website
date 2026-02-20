@@ -10,8 +10,20 @@ document.querySelectorAll(".click-buttons").forEach(button => {
 
 const translations = {
   en: `
+    <div class="hero">
+      <h1 id="title">Artificial Intelligence & Ethics</h1>
+      <p id="intro">A study of Frankenstein and modern AI relationships.</p>
+    </div>
+    
+    <div class="buttons">
+      <button name="author" class="click-buttons">Author</button>
+      <button name="context" class="click-buttons">Context</button>
+      <button name="analysis" class="click-buttons">Analysis</button>
+      <button name="modern" class="click-buttons">AI Today</button>
+      <button name="conclusion" class="click-buttons">Conclusion</button>
     <div id="author" class="section">
       <h2 id="authorTitle">About the Author</h2>
+       
       <p id="authorText">
         Mary Shelley was an English writer born in 1797. She wrote Frankenstein
         at age 18.
@@ -51,6 +63,19 @@ const translations = {
     `,
 
   sv: `
+
+    <div class="hero">
+      <h1 id="title">Artificiell Intelligens & Etik</h1>
+      <p id="intro">En studie av Frankenstein och moderna AI-relationer.</p>
+    </div>
+
+    <div class="buttons">
+      <button name="author" class="click-buttons">Författare</button>
+      <button name="context" class="click-buttons">Kontekst</button>
+      <button name="analysis" class="click-buttons">Analys</button>
+      <button name="modern" class="click-buttons">AI Idag</button>
+      <button name="conclusion" class="click-buttons">Slutsats</button>
+    </div>
     <div id="author" class="section">
       <h2 id="authorTitle">Om Författaren</h2>
       <p id="authorText">
