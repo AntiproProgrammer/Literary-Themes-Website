@@ -6,7 +6,9 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
+  background: #f4f4f4;
 }
+
 
 .hero {
   background: #0d3b66;
@@ -15,140 +17,146 @@ body {
   text-align: center;
 }
 
+
 .buttons {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 20px 0;
 }
 
 .buttons > button {
   background: #1e88e5;
   color: white;
-  padding: 20px;
+  padding: 15px 25px;
   margin: 10px;
+  border: none;
   border-radius: 10px;
   cursor: pointer;
-  width: 200px;
-  text-align: center;
+  width: 180px;
   font-weight: bold;
+  transition: background 0.3s;
 }
 
-.button:hover {
+.buttons > button:hover {
   background: #1565c0;
 }
 
-section {
-  width: 100%;
 
-  padding: 80px 20px;
+.section {
+  width: 90%;
   max-width: 900px;
-  margin: auto;
+  padding: 60px 20px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 h2 {
   color: #0d3b66;
 }
 
+h3 {
+  color: #1e88e5;
+  margin-top: 15px;
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* Språkknappar */
 .lang {
   position: fixed;
   top: 10px;
   right: 10px;
-}
-
-.footer {
+  z-index: 10;
   display: flex;
-  flex-direction: row;
-  padding: 20px;
-  background: #0d3b66;
-  color: white;
+  gap: 5px;
 }
 
 .img-language {
   width: 50px;
   height: 30px;
-  border-radius: 7px;
-  display: inline-block;
-  margin: 5px 7px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: all 0.2s ease-in;
+  transition: transform 0.2s ease-in-out;
 }
 
 .img-language:hover {
   transform: scale(1.1);
 }
 
-ul {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  list-style: none;
+
+footer {
+  background: #0d3b66;
+  color: white;
+  padding: 20px 0;
 }
 
-ul li {
+footer ul {
   display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-ul span {
-  font-size: 1.2rem;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.innehåll {
-  width: 100%;
-  display: flex;
-  gap: 40px;
   justify-content: center;
-  align-items: center;
-  margin: 30px auto;
-
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
-.innehåll img {
-  width: 500px;
-  
-  
-}
-
-.card-text {
-  width: 400px;
+footer li {
   display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-
+  align-items: center;
+  gap: 10px;
 }
 
-.card-text h2 {
-  text-align: center;
+footer li i {
+  font-size: 1.2rem;
 }
 
-.card-text p {
-  margin: 0 auto;
-  width: 450px;
-  line-height: 30px;
-}
 
-@media  (max-width: 1090px) {
-  .innehåll {
-    display: flex;
+@media (max-width: 768px) {
+  .buttons > button {
+    width: 140px;
+    padding: 12px 15px;
+    font-size: 0.9rem;
+  }
+
+  .section {
+    padding: 40px 15px;
+  }
+
+  .img-language {
+    width: 40px;
+    height: 25px;
+  }
+
+  footer ul {
     flex-direction: column;
-   
+    gap: 15px;
   }
+}
 
-  .card-text {
-    justify-content: center;
+@media (max-width: 480px) {
+  .buttons {
+    flex-direction: column;
     align-items: center;
-    width: 500px;
-    margin: 0 auto;
   }
 
-  .card-text h2 {
-    margin-bottom: 30px;
+  .buttons > button {
+    width: 120px;
+    font-size: 0.85rem;
+    padding: 10px 15px;
   }
 
-  .card-text p {
-    width: 500px;
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .section {
+    width: 95%;
+    padding: 30px 10px;
   }
 }
