@@ -166,7 +166,17 @@ const translations = {
 
     <div id="modern" class="section">
       <h2 id="modernTitle">AI & Samhället Idag</h2>
-      <p id="modernText">Idag utvecklar vi artificiell intelligens. Vi måste ta ansvar för hur den används.</p>
+      <p id="modernText">
+        Mary Shelleys <em>Frankenstein</em> väcker en fråga som har blivit ännu mer relevant i dagens tid av artificiell intelligens: Vilket ansvar har en skapare när deras skapelse väl existerar? I romanen blir Victor Frankenstein besatt av den vetenskapliga prestationen att skapa liv, men han ignorerar helt det etiska ansvar som följer.<br><br>
+
+        Direkt efter att han har gett varelsen liv överger han den i rädsla och avsky. Denna brist på vägledning, omsorg och ansvar leder till slut till lidande både för varelsen och människorna omkring honom.<br><br>
+
+        Shelleys berättelse visar att skapande inte bara handlar om innovation eller upptäckt, utan också om ett fortsatt ansvar. Tragedin i <em>Frankenstein</em> är inte bara att Victor skapar liv, utan att han misslyckas med att ta ansvar för det efteråt. Moderna forskare menar att romanen fortfarande är en stark varning för vetenskaplig ambition utan etisk reflektion, särskilt när man diskuterar modern teknologi som artificiell intelligens.<br><br>
+
+        Idag utvecklar forskare och teknikföretag allt mer avancerade AI-system som kan påverka många delar av samhället – från automatiserade rekryteringssystem till generativa AI-verktyg som kan skapa text och bilder som liknar människors. När dessa teknologier blir vanligare varnar forskare för att skapare måste ta hänsyn till etiska risker, såsom partiskhet, brist på ansvar och oväntade konsekvenser.<br><br>
+
+        En viktig fråga är vem som är ansvarig när AI-system orsakar skada. AI kan fatta beslut som påverkar människors liv, till exempel genom att välja bort jobbsökande eller hjälpa till vid medicinska eller juridiska beslut. Men ansvaret kan bli otydligt när beslut tas delvis av algoritmer istället för människor. Forskare beskriver detta som ett "ansvarsglapp", där det blir svårt att avgöra vem som ska hållas ansvarig för ett AI-systems handlingar.
+      </p>
     </div>
 
     <div id="conclusion" class="section">
