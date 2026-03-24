@@ -71,7 +71,13 @@ const translations = {
 
     <div id="modern" class="section">
       <h2 id="modernTitle">AI & Modern Society</h2>
-      <p id="modernText">Today we create artificial intelligence. We must take responsibility for it.</p>
+      <p id="modernText">Mary Shelley’s Frankenstein raises a question that has become even more relevant in the modern age of artificial intelligence: What responsibility does a creator have once their creation exists? In the novel, Victor Frankenstein becomes obsessed with the scientific achievement of creating life, but he completely neglects the ethical responsibilities that follow.<br><br> Immediately after bringing the creature to life, he abandons it in fear and disgust. This lack of guidance, care, and accountability ultimately leads to suffering for both the creature and the people around him.<br><br>
+      Shelley’s story suggests that creation is not only about innovation or discovery it also involves ongoing responsibility. The tragedy of Frankenstein is not simply that Victor creates life, but that he fails to take responsibility for it afterward. Modern scholars argue that the novel remains a powerful warning about scientific ambition without ethical reflection, especially when discussing modern technologies such as artificial intelligence. <br><br>
+      Today, scientists and technology companies are developing increasingly powerful AI systems capable of influencing many areas of society from automated hiring systems to generative AI tools that can produce human like text and images. As these technologies become more common, researchers warn that creators must consider ethical risk such as bias, lack of accountability, and unintended consequences.
+
+
+      One major concern is the question of who is responsible when AI systems cause harm. AI systems can make decisions that affect people’s lives, such as filtering job applicants or assisting in medical or legal decisions. However, responsibility can become unclear wen decisions are made partly by algorithms rather than humans. Researchers describe this as a responsibility gap. Where it becomes difficult to determine who should be held accountable for an AI system’s actions.
+      </p>
       
     </div>
 
