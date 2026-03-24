@@ -33,17 +33,17 @@ const translations = {
 
     <div id="context" class="section">
       <h2 id="contextTitle">Historical Context</h2>
-      <p id="contextText">Great Britain is often described as the birthplace of the Industrial Revolution...</p>
+      <p id="contextText">Great Britain is often described as the birthplace of the Industrial Revolution, a period from about the late 1700s when production moved from small workshops and farms to large factories with machines. New inventions in textiles, steam power and iron made it possible to produce goods much faster and more cheaply than before. Many people moved from the countryside to crowded industrial cities and taking a factory job became a common practice, creating new social problems. The working conditions in said factories were famously horrible. The workers, including children, had often worked 12-14 hours a day in dangerous conditions with only a day off only to receive a low wage. "</p>
       <h2 id="contextTitle2">Literary Context</h2>
-      <p id="contextText2">Mary Shelley wrote Frankenstein during the Romantic period...</p>
+      <p id="contextText2">Mary Shelley wrote Frankenstein during the Romantic period, an artistic and intellectual movement that began in Europe towards the end of the 18th century. Throughout this time, due to the Industrial revolution and the harsh realities discussed during the Age of Enlightenment people began to believe that individualism,emotions and nature should be held at the highest priority, especially in the arts. Four key ideas stood out: Emotion over reason, glorification of nature,emphasis on individualism and the sublime.</p>
       <h3 id="contextTitle3">Emotion over Reason</h3>
-      <p id="contextText3">People believed that deep feelings revealed truths that logic alone could not...</p>
+      <p id="contextText3">People believed that deep feelings–such as passion, joy, terror, or sorrow–revealed truths that logic alone could not. They rejected the Enlightenment idea that humans should suppress emotions in favour of rational analysis. Writers like William Wordsworth urged people to trust their intuition and inner experiences, often exploring psychological depth and the power of imagination to create new realities.</p>
       <h3 id="contextTitle4">Glorification of Nature</h3>
-      <p id="contextText4">Nature inspired awe and offered moral guidance...</p>
+      <p id="contextText4">Nature was not just scenery for Romantics; it was a living, spiritual force that inspired awe and offered moral guidance. They contrasted its wild beauty with the pollution and factories of industrial cities. Poets described mountains, storms, and forests as sources of healing or divine presence, capable of overwhelming the sense and stirring profound emotions</p>
       <h3 id="contextTitle5">Emphasis on Individualism</h3>
-      <p id="contextText5">Romantics celebrated unique individuals, the "Romantic hero"...</p>
+      <p id="contextText5">Romantics celebrated the unique people who stood apart from society. this “Romantic hero” was often a rebel or a tortured genius defying conventions to pursue personal truth. They valued self-expression and authenticity over social norms, highlighting the conflict between the individual and conformist world.</p>
       <h3 id="contextTitle6">The Sublime</h3>
-      <p id="contextText6">Experiences of overwhelming beauty or terror elevated the soul...</p>
+      <p id="contextText6">The sublime referred to experiences of overwhelming emotions that made people feel both insignificant and exalted, like standing before a raging ocean or endless starry sky. People sought the overwhelming beauty of nature in art.</p>
     </div>
 
     <div id="analysis" class="section">
@@ -101,18 +101,35 @@ const translations = {
     </div>
 
     <div id="context" class="section">
-      <h2 id="contextTitle">Historisk Kontext</h2>
-      <p id="contextText">Storbritannien beskrivs ofta som födelseplatsen för den industriella revolutionen...</p>
-      <h2 id="contextTitle2">Litterär Kontext</h2>
-      <p id="contextText2">Mary Shelley skrev Frankenstein under den romantiska perioden...</p>
-      <h3 id="contextTitle3">Känsla över Förnuft</h3>
-      <p id="contextText3">Folk trodde att djupa känslor avslöjade sanningar som logiken inte kunde...</p>
-      <h3 id="contextTitle4">Förhärligande av Naturen</h3>
-      <p id="contextText4">Naturen inspirerade vördnad och erbjöd moralisk vägledning...</p>
-      <h3 id="contextTitle5">Betoning på Individualism</h3>
-      <p id="contextText5">Romantiker hyllade unika individer, den "romantiska hjälten"...</p>
-      <h3 id="contextTitle6">Det Sublima</h3>
-      <p id="contextText6">Upplevelser av överväldigande skönhet eller skräck upphöjde själen...</p>
+      <h2 id="contextTitle">Historisk kontext</h2>
+      <p id="contextText">
+        Storbritannien beskrivs ofta som födelseplatsen för den industriella revolutionen, en period från slutet av 1700-talet då produktionen flyttade från små verkstäder och gårdar till stora fabriker med maskiner. Nya uppfinningar inom textilier, ångkraft och järn gjorde det möjligt att producera varor mycket snabbare och billigare än tidigare. Många människor flyttade från landsbygden till trånga industristäder och att arbeta i fabrik blev vanligt, vilket skapade nya sociala problem. Arbetsförhållandena i dessa fabriker var kända för att vara mycket dåliga. Arbetarna, inklusive barn, arbetade ofta 12–14 timmar om dagen i farliga miljöer och fick låg lön.
+      </p>
+
+      <h2 id="contextTitle2">Litterär kontext</h2>
+      <p id="contextText2">
+        Mary Shelley skrev Frankenstein under romantiken, en konstnärlig och intellektuell rörelse som började i Europa i slutet av 1700-talet. Under denna tid, på grund av den industriella revolutionen och de hårda verkligheter som diskuterades under upplysningen, började människor tro att individualism, känslor och natur skulle ha högsta prioritet, särskilt inom konsten. Fyra viktiga idéer stack ut: känsla över förnuft, förhärligande av naturen, betoning på individualism och det sublima.
+      </p>
+
+      <h3 id="contextTitle3">Känsla över förnuft</h3>
+      <p id="contextText3">
+        Människor trodde att starka känslor – som passion, glädje, skräck eller sorg – kunde visa sanningar som logiken ensam inte kunde. De avvisade upplysningens idé att människor skulle trycka undan känslor till förmån för rationellt tänkande. Författare som William Wordsworth uppmuntrade människor att lita på sin intuition och sina inre upplevelser, och de utforskade ofta fantasin och människans psykologiska djup.
+      </p>
+
+      <h3 id="contextTitle4">Förhärligande av naturen</h3>
+      <p id="contextText4">
+        Naturen var inte bara bakgrund för romantikerna; den sågs som en levande och andlig kraft som skapade vördnad och gav moralisk vägledning. De jämförde naturens vilda skönhet med föroreningarna och fabrikerna i industristäder. Poeter beskrev berg, stormar och skogar som källor till helande eller gudomlig närvaro, som kunde väcka starka känslor.
+      </p>
+
+      <h3 id="contextTitle5">Betoning på individualism</h3>
+      <p id="contextText5">
+        Romantiker hyllade unika individer som stod utanför samhället. Den “romantiska hjälten” var ofta en rebell eller ett plågat geni som bröt mot regler för att hitta sin egen sanning. De värderade självuttryck och äkthet högre än sociala normer och visade konflikten mellan individen och samhället.
+      </p>
+
+      <h3 id="contextTitle6">Det sublima</h3>
+      <p id="contextText6">
+        Det sublima handlade om upplevelser av starka känslor som fick människor att känna sig både små och upphöjda, till exempel när man står framför ett stormande hav eller en oändlig stjärnhimmel. Människor sökte naturens mäktiga skönhet i konsten.
+      </p>
     </div>
 
     <div id="analysis" class="section">
