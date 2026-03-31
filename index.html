@@ -1,32 +1,85 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>AI & Ethics – Frankenstein</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI & Ethics – Frankenstein</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+  </head>
+  
+  <body>
+    <div class="lang">
+      <img class="img-language" onclick="setLang('en')" src="./image/eng-flag.png" alt="english flag">
+      <img class="img-language" onclick="setLang('sv')" src="./image/swe-flag.png" alt="swedish flag">
+    </div>
+      
+    <section class="main">
+      <div class="hero">
+        <h1 id="hero-title"></h1>
+        <p id="intro"></p>
+      </div>
 
-  <div class="lang">
-    <img class="img-language" onclick="setLang('en')" src="./image/eng-flag.png" alt="english flag">
-    <img class="img-language" onclick="setLang('sv')" src="./image/swe-flag.png" alt="swedish flag">
-  </div>
+      <div class="buttons">
+        <button name="author" class="click-buttons"></button>
+        <button name="context" class="click-buttons"></button>
+        <button name="analysis" class="click-buttons"></button>
+        <button name="modern" class="click-buttons"></button>
+        <button name="conclusion" class="click-buttons"></button>
+      </div>
+      <div id="author" class="section">
+      <h2 id="authorTitle"></h2>
+      <h3 id="authorSubTitle"></h3>
+      <p id="authorText"></p>
+      <h3 id="authorSubTitle2"></h3>
+      <p id="authorText2"></p>
+      <h3 id="authorSubTitle3"></h3>
+      <p id="authorText3"></p>
+      <p id="authorText4"></p>
+    </div>
 
+    <div id="context" class="section">
+      <h2 id="contextTitle"></h2>
+      <p><span id="contextText"></span><img class="context-image" src="/image/industrialrevolution.png" alt="a factory"></p>
+      <h2 id="contextTitle2"></h2>
+      <p id="contextText2"></p>
+      <h3 id="contextTitle3"></h3>
+      <p id="contextText3"></p>
+      <h3 id="contextTitle4"></h3>
+      <p id="contextText4"></p>
+      <h3 id="contextTitle5"></h3>
+      <p id="contextText5"></p>
+      <h3 id="contextTitle6"></h3>
+      <p id="contextText6"></p>
+      <p id="contextText7"></p>
+    </div>
 
-  <main class="main"></main>
+    <div id="analysis" class="section">
+      <h2 id="analysisTitle"></h2>
+      <p id="analysisText"></p>
+    </div>
 
+    <div id="modern" class="section">
+      <h2 id="modernTitle"></h2>
+      <p id="modernText"></p>
+    </div>
 
-  <footer>
-    <ul>
-      <li><i class="fa-regular fa-user"></i><span>Alexander Åhlander</span></li>
-      <li><i class="fa-regular fa-user"></i><span>Felix Åslin</span></li>
-      <li><i class="fa-regular fa-user"></i><span>Polina Martynenko</span></li>
-      <li><i class="fa-regular fa-user"></i><span>Martin Larsen</span></li>
-    </ul>
-  </footer>
+    <div id="conclusion" class="section">
+      <h2 id="conclusionTitle"></h2>
+      <p id="conclusionText"></p>
+    </div>
 
-  <script src="./app.js"></script>
-</body>
+</section>
+    
+    <footer>
+      <ul>
+        <li><i class="fa-regular fa-user"></i><span>Alexander Åhlander</span></li>
+        <li><i class="fa-regular fa-user"></i><span>Felix Åslin</span></li>
+        <li><i class="fa-regular fa-user"></i><span>Polina Martynenko</span></li>
+        <li><i class="fa-regular fa-user"></i><span>Martin Larsen</span></li>
+      </ul>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
 </html>
