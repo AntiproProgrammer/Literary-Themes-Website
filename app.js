@@ -28,7 +28,34 @@ const translations = {
 
     <div id="author" class="section">
       <h2 id="authorTitle">About the Author</h2>
-      <p id="authorText">Mary Shelley was an English writer born in 1797. She wrote Frankenstein at age 18.</p>
+      <p id="authorText">About the Author
+        Basic facts about Mary Shelley
+        Born 1797 30 august London- somers town dead 1851 first january in chester square london Mary Shelley is a British author known for Frankenstein which was published anonymously in 1818 and she started writing it when she was 18 years old. The reason behind writing such a bizarre story was based on a trip she made to Germany in Gernsheim which was close to the “Frankenstein castle” which many believe was an inspiration to the novel.<br><br>
+
+
+
+
+
+        Why she was typical or unusual for her time
+
+        It was very unusual for young women to become famous authors as she wrote Frankenstein aged 18 years old. Her novel also helped create the “science fiction” genre with Frankenstein technically being the first work of that kind.
+
+        Her influence on society 
+        Ideas:
+        Big influence on the science fiction genre making Frankenstein which was unusual because it mixed science with imaginative storytelling. The concept was way ahead of its time and explored concepts like creating life through science before biotechnology existed. Frankenstein apparently sparked debates about science like for example if science should create life if they could? or what happens when technology advances faster than ethics? and similar themes are discussed today like for example AI. It also influenced a lot of people and is why Frankenstein is still getting adaptations to this day.<br><br>
+
+        Timeline of her life
+        1797-Birth 30th august she war born in london, England
+        Her parents were famous intellectuals. Mary Wollenstonecraft-author who wrote “A vindication of the rights of woman”, William Godwin- who was also an author. Her mother died 11 days after birth which shaped her childhood
+        1814- At age 16 she runs off to Europe with poet Percy Bysshe Shelley (a married admirer of her fathers ideas) along with her stepdaughter Claire. This bold move caused a family scandal in which she was cut off from her father for years.
+        1815 First child (Clara) born prematurely and dies in infancy<br><br>
+        1816- The famous “haunted summer” occurred in Geneva which was a stormy and cold summer which led to lake geneva flooding and animal corpses filled the area nearby where Percy, Claire and lord Nyron inspires her to write frankenstein. Their son William is born
+        1817 she finishes writing Frankenstein and  publishes her first work “History of a six weeks tour” which she and Percy released together.
+        1818: Frankenstein; or, The Modern Prometheus published anonymously at 20 years of age and was considered an immediate sensation, often credited to Percy initially. During the year the Family moves to Italy and another infant daughter dies.
+        1819 William dies of malaria age 3. and the same year of the birth of Percy Florence who is the only child that survives adulthood.
+        1822: Percy Shelley drowns in boating accident (age 29) returns to England, preserves his heart as relic, edits/publishes his works for legacy and income.
+        1831: Revised edition of Frankenstein published under her own name, with famous introduction on
+        1851: Dies in London at 53 (brain tumor). Legacy: Creator of Frankenstein—foundational Gothic/science fiction exploring creation, responsibility, isolation—shaped by radical upbringing, bold rebellion, and profound losses.</p>
     </div>
 
     <div id="context" class="section">
@@ -102,8 +129,38 @@ const translations = {
     </div>
 
     <div id="author" class="section">
-      <h2 id="authorTitle">Om Författaren</h2>
-      <p id="authorText">Mary Shelley var en engelsk författare född 1797. Hon skrev Frankenstein vid 18 års ålder.</p>
+      <h2 id="authorTitle">Om författaren</h2>
+      <p id="authorText">
+        Grundläggande fakta om Mary Shelley<br>
+        Född 30 augusti 1797 i London (Somers Town) – dog 1 januari 1851 i Chester Square, London. Mary Shelley var en brittisk författare känd för <em>Frankenstein</em>, som publicerades anonymt år 1818. Hon började skriva boken när hon var 18 år gammal. Idén till den ovanliga berättelsen kom från en resa hon gjorde till Tyskland, i Gernsheim, nära “Frankenstein-slottet”, som många tror inspirerade romanen.<br><br>
+
+        Varför hon var typisk eller ovanlig för sin tid<br>
+        Det var mycket ovanligt för unga kvinnor att bli kända författare, särskilt i så ung ålder som 18 år. Hennes roman bidrog också till att skapa genren “science fiction”, och <em>Frankenstein</em> räknas ofta som ett av de första verken i denna genre.<br><br>
+
+        Hennes påverkan på samhället<br>
+        Mary Shelley hade stor påverkan på science fiction-genren genom att kombinera vetenskap med fantasi. Idén var långt före sin tid och utforskade koncept som att skapa liv genom vetenskap, långt innan modern bioteknik existerade. <em>Frankenstein</em> startade också diskussioner om vetenskapens roll, till exempel om man bör skapa liv bara för att man kan, och vad som händer när teknologin utvecklas snabbare än etiken. Dessa frågor är fortfarande aktuella idag, till exempel inom AI. Boken har också påverkat många människor och fortsätter att få nya film- och teateradaptioner.<br><br>
+
+        Tidslinje över hennes liv<br>
+        1797 – Född 30 augusti i London, England. Hennes föräldrar var kända intellektuella: Mary Wollstonecraft, som skrev <em>A Vindication of the Rights of Woman</em>, och William Godwin, som också var författare. Hennes mamma dog 11 dagar efter hennes födelse, vilket påverkade hennes uppväxt.<br><br>
+
+        1814 – Vid 16 års ålder rymmer hon till Europa med poeten Percy Bysshe Shelley (som var gift) tillsammans med sin styvsyster Claire. Detta skapade en stor skandal och hon bröt kontakten med sin far i flera år.<br><br>
+
+        1815 – Första barnet (Clara) föds för tidigt och dör som spädbarn.<br><br>
+
+        1816 – Den berömda “spöksommaren” i Genève. Det var en kall och stormig sommar som ledde till översvämningar runt Genèvesjön. Under denna tid inspirerades hon att skriva <em>Frankenstein</em>. Samma år föds deras son William.<br><br>
+
+        1817 – Hon avslutar <em>Frankenstein</em> och publicerar sitt första verk <em>History of a Six Weeks’ Tour</em> tillsammans med Percy.<br><br>
+
+        1818 – <em>Frankenstein; or, The Modern Prometheus</em> publiceras anonymt när hon är 20 år gammal och blir snabbt mycket uppmärksammad. Familjen flyttar till Italien och ytterligare en dotter dör som spädbarn.<br><br>
+
+        1819 – Sonen William dör i malaria vid 3 års ålder. Samma år föds Percy Florence, som blir det enda barnet som överlever till vuxen ålder.<br><br>
+
+        1822 – Percy Shelley drunknar i en båtolycka vid 29 års ålder. Mary återvänder till England, bevarar hans hjärta som minne och redigerar/publicerar hans verk.<br><br>
+
+        1831 – En reviderad version av <em>Frankenstein</em> publiceras under hennes eget namn, med en känd introduktion.<br><br>
+
+        1851 – Hon dör i London vid 53 års ålder (hjärntumör). Hennes arv: skaparen av <em>Frankenstein</em> – en grundläggande gotisk och science fiction-berättelse om skapelse, ansvar och isolering, formad av hennes livserfarenheter.
+      </p>
     </div>
 
     <div id="context" class="section">
